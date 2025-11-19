@@ -1,0 +1,13 @@
+day 3
+location donoted by (x,y) where x is position relative to north and south, and y is position relative to east and west
+go through the file
+position starts with x = 0, y = 0
+for each
+if char = north, then x += 1
+if char = south, then x -= 1
+if char = east, then y += 1
+if char = west, then y -= 1
+current position = (x,y)
+add current position to list of houses visited only if it's there isn't already an entry of the same position - if the house has already been visited
+
+solution is the number of houses he visited  - count of the list item
