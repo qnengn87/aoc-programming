@@ -28,7 +28,7 @@ for line in contents:
     # travelling to the left
     if distance < 0:
         if dial_point == 0:
-            min_distance_to_hit_zero = 100 #distance needs to be 100 if it starts at 0 to be considered a click, otherwise minimum distance is only 0
+            min_distance_to_hit_zero = 100 #distance needs to be 100 if it starts at 0 to be considered a click, otherwise minimum distance is only 0 which is wrong
         else:
             min_distance_to_hit_zero = dial_point
         # if dial has been turned enough to reach zero 
